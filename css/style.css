@@ -1,0 +1,146 @@
+/*
+CSS comment
+*/
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+.button {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 20px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 2px 1px -1px rgba(255, 255, 255, 0.3);
+}
+.button.red {
+  background-color: #f42257;
+  border: 2px solid #c50a39;
+  background-image: linear-gradient(#f42257 0%, #cf0a3c 100%);
+}
+.button.red:hover {
+background: #cf0a3c;
+}
+.button.cyan {
+  background-color: #2faaab;
+  border: 2px solid #207273;
+  background-image: linear-gradient(#2faaab 0%, #227a7b 100%);
+}
+.button.cyan:hover {
+  background: #227a7b;
+}
+.blue-box {
+  background-color: rgba(128, 215, 247, 0.66);
+  color: #ffffff;
+  width: 50%;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.blue-box.right {
+  float: right;
+}
+.blue-box.left {
+  float: left;
+}
+#hero {
+    height: 100vh;
+    min-height: 660px;
+    background-image: url(../images/hero-bg.jpeg);
+    background-size: cover;
+    color: #ffffff;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+header {
+  padding-top: 36px;
+}
+header img {
+  width: 260px;
+}
+#hero h1 {
+  font-size: 46px;
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.25
+}
+#hero h1 span {
+  font-size: 72px;
+  font-weight: bold;
+}
+#hero p {
+    text-align: center;
+    width: 740px;
+    margin:80px auto 0;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+#hero .buttons {
+  text-align: center;
+  margin-top: 70px;
+}
+#features {
+  padding: 70px 0;
+}
+#features .container {
+  display: flex;
+}
+#features .box {
+  width: 33.3333%;
+  padding: 0 10px;
+  text-align: center;
+}
+#features .box i {
+  font-size: 60px;
+}
+#features .box h2 {
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+#features .box p {
+  line-height: 1.5;
+}
+#guy {
+  background-image: url(../images/clouds.jpg);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+#guy h2 {
+  font-size: 28px;
+}
+#guy h3 {
+  font-size: 16px;
+  margin: 30px 0 18px;
+}
+#guy .boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+#guy .box {
+  box-sizing: border-box;
+  width: 40%;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 30px 10px;
+}
+#guy p {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+#guy .boxes .box h4 {
+  margin-bottom: 20px;
+}
+#guy .boxes .box figure {
+  font-size: 28px;
+  font-family: 'Roboto Slab', serif;
+}
